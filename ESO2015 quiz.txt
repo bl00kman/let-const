@@ -1,0 +1,19 @@
+var PI = 3.14;
+PI = 42
+; // stop me from doing this!
+
+let PI = 3.14;
+PI = 42
+; // stop me from doing this!
+
+- What is the difference between ***var*** and ***let***?
+var can be redeclared as something else while const will stay the same.
+
+- What is the difference between **var** and ***const***?
+var can be redeclared at any time but const cant be just by using it again
+
+- What is the difference between **let** and **const**?
+you can reassign let but not const
+
+- What is hoisting?
+itis how JS reads and executes the code (if something defined as global scope it will be hoisted up tothe top of the line)
